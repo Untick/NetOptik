@@ -23,9 +23,13 @@ async def handle_buttons(update: Update, context: CallbackContext) -> None:
               "img/frame.jpg"
             ),
         "2": (
-              "Чтобы найти оправу по метке, пришлите фото метки как можно отчетливее и крупнее.",
+              "В разработке!!",
               "img/tag.jpg"
             )
+        # "2": (
+        #       "В разработке!! Чтобы найти оправу по метке, пришлите фото метки как можно отчетливее и крупнее.",
+        #       "img/tag.jpg"
+        #     )
     }
 
     message, photo_path = switch_dict.get(query.data, (None, None))

@@ -5,3 +5,7 @@ services:
     build: ./bot
     env_file:
       - ./.env
+  api:
+    build: ./api
+    # ports:
+    #   - '5000:5000'
